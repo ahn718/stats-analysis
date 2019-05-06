@@ -1,0 +1,23 @@
+Sensitivity (also called the true positive rate, the recall, or probability of detection[1] in some fields) measures the proportion of actual positives that are correctly identified as such (e.g., the percentage of sick people who are correctly identified as having the condition).
+
+Specificity (also called the true negative rate) measures the proportion of actual negatives that are correctly identified as such (e.g., the percentage of healthy people who are correctly identified as not having the condition).
+
+true positive (TP) eqv. with hit true negative (TN) eqv. with correct rejection false positive (FP) eqv. with false alarm, Type I error false negative (FN) eqv. with miss, Type II error
+
+# True positive - we hypothesised in the affirmative and we are right
+# False Positive - we hypothesized in the affirmative but we are wrong
+# False negative - we hypothezied in the negative (that it is not) and we are right that it is not
+
+# Precision = true positive/ true positive + false positive
+# Recall = True positive / true positive / false negative
+
+True positive: Sick people correctly identified as sick
+False positive: Healthy people incorrectly identified as sick
+True negative: Healthy people correctly identified as healthy
+False negative: Sick people incorrectly identified as healthy
+In general, Positive = identified and negative = rejected. Therefore:
+
+True positive = correctly identified
+False positive = incorrectly identified
+True negative = correctly rejected
+False negative = incorrectly rejected
