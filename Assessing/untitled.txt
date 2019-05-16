@@ -1,0 +1,27 @@
+Data Quality Dimensions (Dirty)
+Dirty data = low quality data = content issues
+1. Completeness - missing data
+2. Validity - e.g -6 inches tall, duplicate ids(which should be unique), (integers as floats - zip code)
+3. Accuracy - Inaccurate data can be valid such as a faulty scale
+4. Consistency - Inconsistent data can be valid and accurate e.g. (male and m)
+
+
+Data Tidiness Dimensions (Messy)
+Messy data = untidy data = structural issues
+Deals with the structure of the table rather than the quality of the data
+1. Each variable forms a colum e.g having email and address in same column
+2. Each observation forms a row 
+3. Each type of observational unit forms a table
+
+Tidy data makes it easy for an analyst or a computer to extract needed variables because it provides a standard way of structuring a dataset. 
+
+most common problems with messy datasets
+Column headers are values, not variable names.
+
+Multiple variables are stored in one column.
+
+Variables are stored in both rows and columns.
+
+Multiple types of observational units are stored in the same table.
+
+A single observational unit is stored in multiple tables.
